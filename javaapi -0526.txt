@@ -1,0 +1,66 @@
+1.到java lang找底下的Ststem
+OCAJP
+OCPJP
+考兩個證照
+nx9sdt1
+
+package tw.org.iii.myjava;
+
+public class Brad03 {
+
+	public static void main(String[] args) {
+		//integer
+		//byte,short,int,lomg
+		// 2^8 => -128~127
+		byte var1 = 0;
+		byte var2 =123;
+		//[a-zA-Z$_][a-zA-Z0-9$_]*  //第一個字第二個字要此範圍
+		byte $$$ = 100;
+		byte $_$ = 123;
+		byte 變數1 = 123;  //因為unit-8 接受所以用中文命名是可以的
+		byte var3, var4 = 12, var5;  //The local variable var5 may not have been initialized 宣告的字未定義
+		
+		System.out.println(var1);
+		// var1 = 128;          Type mismatch: cannot convert from int to byte因為128超過他的職沒辦法轉
+	}
+
+}
+
+package tw.org.iii.myjava;
+
+public class Brad04 {
+
+	public static void main(String[] args) {
+		// short : 2^16 => -32768 ~32767
+		// int :   2^32 => 約43億   約4G  -20多億到政20多億
+		// long :  2^64
+		short var1 = 32767;
+		System.out.println(var1);
+		
+
+	}
+
+}
+package tw.org.iii.myjava;
+
+public class Brad05 {
+
+	public static void main(String[] args) {
+		// float 2^32
+		// double 2^64
+		float var1 = 12.3f;
+		double var2 = 12.3;
+		float var3 = 12;
+		
+		boolean var4 = true;  // false; 布林值不是true就是false;
+		
+		// 2^16 => unsign => 0~65535
+		char var5 = '資';   //一個字元
+		char var6 = 65; // ASCII code a=>97
+		System.out.println(var5);
+		
+		System.out.println("Hello world".charAt(4));
+
+	}
+
+}

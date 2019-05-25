@@ -1,0 +1,10 @@
+1.System.out.println("Hello,world"); =印出hello world;
+2.*package 紅字代表關鍵字全小寫
+3.package tw.org.iii.myjava; 在這邊寫
+4.public class Brad01=宣告一個類別檔名叫Brad01
+5.public static void main(String[]brad) {}
+6./**
+ * Java Doc
+ * @author admin
+ *
+ */

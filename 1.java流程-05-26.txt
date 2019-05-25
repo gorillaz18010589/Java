@@ -1,0 +1,46 @@
+1.下載JDK
+*搜尋java jdk到oracle下載
+*Java SE=代表正式版
+*大部分用java se 8
+*先載java12版本,要打勾選64
+*jdk-12.0.1_windows-x64_bin.exe
+*下載後裝在c/java
+*打開cmd打上java看看環境設定
+*java version看板本
+*cd C:\Java\jdk
+*bic =工具,指令擺在此資料價
+*到bic資料夾找到java.exe =執行用
+*javac.exe是編譯系統
+*cd bin
+*輸入java -version 
+https://www.jetbrains.com/idea/
+https://www.eclipse.org/downloads/ 老師推薦用此
+*系統環境再貼上入境
+*在資料夾
+cmd打set
+電腦-內容-進階-環境變數-上下都path 後面接;C:\Java\jdk\bin
+*打上javac -version
+window showview
+*create a java project
+精靈導引模式
+出現錯誤後到src資料夾新增一個page
+
+tw.org.iii 網域
+*https://github.com/bradchao/FSIT06_java = 老師github
+
+
+
+
+
+
+*IDE:整合開發環境
+2.JRE執行程式
+https://docs.oracle.com/javase/8/docs/api/官網
+
+https://docs.oracle.com/javase/8/docs/api/
+https://github.com/bradchao/FSIT06_Java/blob/master/Brad2Java/src/tw/brad/myjava/Brad02.java
+https://www.eclipse.org/downloads/download.php?file=/oomph/epp/2019-03/R/eclipse-inst-win64.exe&mirror_id=1248
+https://www.jetbrains.com/idea/
+https://www.oracle.com/technetwork/java/javase/downloads/index.html
+
+*搜尋goggle classroom 
